@@ -1,7 +1,7 @@
 <script setup>
-  import Content from '../components/layout/Content.vue'
-  import Sidebar from '../components/layout/Sidebar.vue'
-  import Inventory from '../components/layout/Inventory.vue'
+import Content from "../components/layout/Content.vue";
+import Sidebar from "../components/layout/Sidebar.vue";
+import Inventory from "../components/layout/Inventory.vue";
 </script>
 
 <template>
@@ -16,16 +16,16 @@
 </template>
 
 <style>
-  .ql-toolbar.ql-snow {
-    margin: 0.5rem 0 0 0 !important;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-  }
-  .ql-editor {
-    height: 13rem;
-  }
-  .ql-container {
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-  }
+.ql-toolbar.ql-snow {
+  margin: 0.5rem 0 0 0 !important;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.ql-editor {
+  height: 13rem;
+}
+.ql-container {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
 </style>

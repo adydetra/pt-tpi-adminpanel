@@ -1,11 +1,11 @@
 <script setup>
-  import TheHeader from './components/TheHeader.vue'
-  import Container from './components/Container.vue'
+import TheHeader from "./components/TheHeader.vue";
+import Container from "./components/Container.vue";
 </script>
 
 <template>
-  <section class="bg-slate-100">
+  <main class="bg-slate-100">
     <TheHeader />
     <Container />
-  </section>
+  </main>
 </template>
